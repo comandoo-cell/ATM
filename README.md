@@ -1,15 +1,49 @@
-# ATM Console System (C++)
-Simple ATM simulation built in C++ using file storage for client data.
+# 🏦 ATM Console System (C++)
 
-## Features
-- Login system with account number and PIN
-- Quick Withdraw options
-- Normal Withdraw (custom amount)
-- Deposit
-- Check Balance
-- Data persistence in `Clients.txt`
+A simple **ATM simulation** built in **C++**, using file-based data storage (`Clients.txt`).  
+The program allows users to log in, withdraw, deposit, and check their balance directly from the console.
 
-## How to Run
-1. Compile the project using Code::Blocks or VS Code.
-2. Ensure `Clients.txt` is in the same directory.
-3. Run the executable and log in using valid credentials.
+---
+
+## ✨ Features
+
+- 🔐 **Login system** (Account Number + PIN)
+- 💸 **Quick Withdraw** options (20–1000)
+- 🧾 **Normal Withdraw** (custom amounts, multiples of 5)
+- 💰 **Deposit** any positive amount
+- 📊 **Check Balance**
+- 💾 **Persistent Data Storage** in `Clients.txt`
+
+---
+
+## 🧠 How It Works
+
+All client data is stored in a local text file (`Clients.txt`) in this format:
+
+AccountNumber#//#PinCode#//#Name#//#Phone#//#Balance
+
+
+### Example:
+
+
+1001#//#1234#//#Ali Ahmad#//#0501234567#//#1500
+1002#//#5678#//#Sara Yusuf#//#0559876543#//#2300
+
+
+Each client can log in using their **account number** and **PIN**, and then access the main ATM menu.
+
+---
+
+## 🖥️ Main Menu Options
+
+
+============================================
+ATM MAIN MENU SCREEN
+ [1] Quick Withdraw
+ [2] Normal Withdraw
+ [3] Deposit
+ [4] Check Balance
+ [5] Logout
+
+
+============================================
