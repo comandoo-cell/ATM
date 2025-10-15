@@ -26,8 +26,8 @@ AccountNumber#//#PinCode#//#Name#//#Phone#//#Balance
 ### Example:
 
 
-1001#//#1234#//#Ali Ahmad#//#0501234567#//#1500
-1002#//#5678#//#Sara Yusuf#//#0559876543#//#2300
+1001#//#1234#//#Ali Ahmad#//#55555555555#//#1500
+
 
 
 Each client can log in using their **account number** and **PIN**, and then access the main ATM menu.
